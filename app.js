@@ -48,8 +48,8 @@ function setCountdown() {
 
   if (days > 1) countdown.textContent = `${days} days out`;
   else if (days === 1) countdown.textContent = "Tomorrow is Kirk Day";
-  else if (days === 0) countdown.textContent = "Kirk Day. Now.";
-  else countdown.textContent = "Kirk Day, on the record";
+  else if (days === 0) countdown.textContent = "It's Kirk Day";
+  else countdown.textContent = "Kirk Day already happened";
 }
 
 function showScene(next) {
